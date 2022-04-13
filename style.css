@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.main{
+    top: 0;
+    display: flex;
+    
+}
+#img{
+    width: 100%;
+    height: 90vh;
+    /* margin-left: 30%; */
+    margin-top: -93px;
+    
+}
+.home {
+    width: 51%;
+    padding: 3% 2% 2% 7%;
+}
+.inhome {
+    display: flex;
+}
+.image {
+    width: 49%;
+}
+.cname {
+    margin: 4% 0% 0% 0%;
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 0 rgb(255, 132, 0);
+    font-size: 28px;
+    letter-spacing: 4px;
+    color: rgb(255, 132, 0);
+    padding-right: 38%;
+}
+.icon {
+    height: 10vh;
+    margin-right: -12px;
+}
+.login-button {
+    padding: 5.5% 0% 0% 0%;
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 4%;
+    letter-spacing: 0.5px;
+    height: 3.5vh;
+}
+.login-button:hover {
+    color: rgb(255, 120, 0);
+}
+.signup-button {
+    height: 3.5vh;
+    margin-top: 3.5%;
+    padding: 2% 4% 0% 4%;
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    letter-spacing: 0.5px;
+}
+#changes {
+    padding: 5% 0% 0% 3%;
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    font-size: 38px;
+    margin-bottom: 9px;
+}
+.below-line {
+    margin-top: 0;
+    padding-left: 3%;
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    font-weight: lighter;
+    color: gray;
+    font-size: 1.41em;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.3px;
+    padding-bottom: 3%;
+}
+.location {
+    display: flex;
+}
+.lctn {
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    font-size: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-left: 4%;
+    border: 1px solid rgb(181, 177, 177);
+    height: 4.5vh;
+    width: 33vw;
+    padding: 2% 0% 2% 3.5%;  
+    position: relative;
+}
+.find-button {
+    cursor: pointer;
+    width: 8vw;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 132, 0);
+    padding-left: 9%;
+    padding-top: 3.2%;
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    outline: none;
+    
+}
+.lctn:hover {
+    border: 1px solid rgb(255, 132, 0);
+    outline: none;
+}
+.next-head {
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    padding: 3% 0% 0% 3%;
+    font-weight: lighter;
+    -webkit-font-smooting: antialiased;
+    color: rgb(180, 178, 178);
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.cities, .cities2{
+    display: flex;
+    padding-left: 2%;
+    height: 5vh;
+    letter-spacing: 0.4px;
+}
+.dark-cities {
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    padding-left: 1%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.light-cities {
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    padding-left: 1%;
+    font-size: 15px;
+    color: rgb(148, 146, 146);
+}
+.dark-cities2 {
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    padding-left: 1%;
+    font-size: 15px;
+    margin-top: 4px;
+}
+.light-cities2 {
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    padding-left: 1%;
+    font-size: 15px;
+    margin-top: 4px;
+    color: rgb(148, 146, 146);
+}
+.home2 {
+    background-color: #2b1e16;
+    height: 50vh;
+    position: relative;
+    bottom: 103px;
+    /* padding-left: 14%; */
+    display: flex;
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+}
+.img1 {
+    padding-left: 86%;
+    height: 25vh;
+}
+.firstpart, .secondpart, .thirdpart {
+    width: 33.33%;
+    text-align: center;
+}
+.img2 {
+    height: 25vh;
+    padding-left: 75%;
+}
+.img3 {
+    padding-top: 10%;
+    padding-left: 70%;
+    height: 22vh;
+}
+.h1 {
+    padding-left: 5%;
+    color: white;
+    padding-top: 8%;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+.des1 {
+    color: #e0cbc1;
+    padding: 3% 20% 0% 25%;
+    line-height: 20px;
+    font-size: 15px;
+}
+.des2 {
+    color: #e0cbc1;
+    padding: 3% 18% 0% 24%;
+    line-height: 20px;
+    font-size: 15px;
+}
+.des3 {
+    color: #e0cbc1;
+    padding: 3% 18% 0% 24%;
+    line-height: 20px;
+    font-size: 15px;
+}
+.downloadlink {
+    height: 70vh;
+    display: flex;
+    margin-top: -103px;
+}
+.links {
+    width: 45.5%;
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+}
+.tagline {
+    padding: 22% 0% 0% 18%;
+    font-size: 40px;
+    font-weight: 600;
+}
+.belowdes {
+    padding: 3% 20% 0% 18%;
+    line-height: 25px;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    color: #7e808c;
+    font-weight: lighter;
+    -webkit-font-smoothing: antialiased;
+}
+.psas {
+    display: flex;
+    padding: 8% 0% 0% 18%;
+}
+.ps {
+    height: 6.5vh;
+    width: 13vw;
+    cursor: pointer;
+}
+.as {
+    height: 6.5vh;
+    width: 13vw;
+    cursor: pointer;
+    padding-left: 10%;
+}
+.linkimage {
+    display: flex;
+}
+.mob1img {
+    height: 59vh;
+}
+.mob2img {
+    height: 59vh;
+    padding-top: 10%;
+    margin-left: -40px;
+}
+.aboutUs {
+    height: 50vh;
+    background-color: black;
+    font-family: ProximaNova,arial,"Helvectica Neue",sans-serif;
+    display: flex;
+    padding-top: 5%;
+    padding-left: 9%;
+    margin-top: -18px;
+}
+.company1, .contact1{
+    padding-right: 15%;
+    letter-spacing: 0.2px;
+}
+.legal1 {
+    letter-spacing: 0.2px;
+}
+.company, .contact, .legal{
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+.cmplist, .contlist{
+    padding-top: 18%;
+    line-height: 40px;
+    color: white;
+    font-weight: lighter;
+    -webkit-font-smoothing: antialiased;
+    font-size: 17px;
+    text-decoration: none;
+}
+.legalist {
+    padding-top: 13%;
+    line-height: 40px;
+    color: white;
+    font-weight: lighter;
+    -webkit-font-smoothing: antialiased;
+    font-size: 17px;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.morelink {
+    padding-left: 12%;
+    width: 5vw;
+}
+.as2 {
+    border: 0.8px solid white;
+    border-radius: 10px;
+    height: 8vh;
+    margin-bottom: 50%;
+}
+.ps2 {
+    border: 0.8px solid white;
+    border-radius: 10px;
+    height: 8vh;
+}
